@@ -6,6 +6,7 @@ import data from './data';
 class App extends Component {
   constructor(props){
     super(props);
+    this.data = props.data;
   }
   render() {
     console.log('data: ',data);
