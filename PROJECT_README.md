@@ -2,6 +2,7 @@
 
 - for an example, see <a target="_blank" href="result/React App.html">
 - a css file has already been provided.  Feel free to modify it to suite your needs
+- MAKE SURE to do 'npm install' in your project folder before you start to code, then run 'npm start'
 ### scope
 
 - Create a header
