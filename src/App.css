@@ -26,6 +26,7 @@ body{
   width: 100%;
 }
 .quote{
+  position: absolute;
   text-align: center;
   font-size: 50%;
 }
@@ -94,6 +95,7 @@ body{
   padding: .5vmin;
   border-top-left-radius: 30%;
   border-bottom-left-radius: 30%;
+  background-color: rgba(0,0,0,0.5);
 }
 #friendList:hover{
   transform: translateX(-100%);
