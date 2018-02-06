@@ -26,6 +26,7 @@ body{
   width: 100%;
 }
 .quote{
+  position: absolute;
   text-align: center;
   font-size: 50%;
 }
