@@ -4,7 +4,8 @@ import './App.css';
 import data from './data';
 
 import Header from './component/Header';
-
+import TopBlogPost from './component/Top_blog_post';
+import SliceMenu from './component/SliceMenu';
 
 class App extends Component {
   constructor(props){
@@ -16,6 +17,8 @@ class App extends Component {
     return (
       <div className="App">
           <Header />
+          <SliceMenu />
+          <TopBlogPost />
       </div>
     );
   }
