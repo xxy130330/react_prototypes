@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import Task from './task';
-import './TaskCreateEdit.css';
+import './taskCreateEdit.css';
 
-class TaskCreateEdit{
+class TaskCreateEdit extends Component{
 	constructor(props){
 		super(props);
 	}
 	render(){
-
+		return(
+			<div>TaskCreateEdit</div>
+		)
 	}
 }
 
